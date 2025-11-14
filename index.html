@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dewasi AC Service Center – Jaipur</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+    nav {
+      background-color: #0056b3;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.8rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #0056b3;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .services, .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      height: 180px;
+      object-fit: cover;
+    }
+    .reviews {
+      background: #e9f1ff;
+      padding: 2rem;
+      border-radius: 8px;
+    }
+    .review {
+      margin-bottom: 1rem;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #0056b3;
+      color: white;
+    }
+    .floating-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 999;
+    }
+    .floating-btn a {
+      background: #25d366;
+      color: white;
+      padding: 12px 16px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    .floating-btn a.call {
+      background: #007bff;
+    }
+    .review-form {
+      text-align: center;
+      margin-top: 2rem;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .stars {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin: 10px 0;
+    }
+    .stars span {
+      font-size: 25px;
+      cursor: pointer;
+      color: #ccc;
+      transition: color 0.2s;
+    }
+    .stars span.active {
+      color: gold;
+    }
+    .review-form textarea {
+      width: 90%;
+      height: 80px;
+      margin-top: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      padding: 8px;
+      resize: none;
+    }
+    .review-form button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .review-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dewasi AC Service Center – Jaipur</h1>
+    <p>Fast • Reliable • Affordable AC Service at Your Home</p>
+  </header>
+  
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Dewasi AC Service Center</h2>
+    <p>We provide professional AC repair, installation, and gas filling services across Jaipur.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://vijayahomeservices.b-cdn.net/Appliance%20Services/Sub-subcategory%20Appliance/AC%20Repair.jpg" alt="AC Repair" />
+        <h3>AC Repair</h3>
+        <p>Expert repair for all types of AC issues at your doorstep.</p>
+      </div>
+      <div class="card">
+        <img src="https://tokiso.in/wp-content/uploads/2025/04/Air-Condition-Gas-Filling-in-Nagpur.webp" alt="Gas Filling" />
+        <h3>AC Gas Filling</h3>
+        <p>Refilling with genuine gas for better cooling and efficiency.</p>
+      </div>
+      <div class="card">
+        <img src="https://www.air-cool.in/wp-content/uploads/2025/02/b1d2563c-3685-4a36-aa4c-de0ed3e8e5ce.jpg" alt="AC Installation" />
+        <h3>AC Installation</h3>
+        <p>Professional AC installation with complete safety and accuracy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="reviews">
+      <div class="review">⭐️⭐️⭐️⭐️⭐️ Excellent service! – Ravi Sharma</div>
+      <div class="review">⭐️⭐️⭐️⭐️ Great experience. – Neha Singh</div>
+      <div class="review">⭐️⭐️⭐️⭐️⭐️ Reliable and fast service. – Aman Verma</div>
+    </div>
+    <div class="review-form">
+      <h3>Leave Your Review</h3>
+      <div class="stars" id="stars">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+      </div>
+      <textarea id="comment" placeholder="Write your feedback..."></textarea><br>
+      <button id="submitBtn">Submit</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">Call or message us for any AC-related service.</p>
+    <div style="text-align:center; margin-top:1rem;">
+      <p><strong>Phone:</strong> <a href="tel:6367085499">6367085499</a></p>
+      <p><strong>Location:</strong> Vaishali Nagar, Gandhi Path, Lalpura – Jaipur</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Dewasi AC Service Center | All Rights Reserved</p>
+  </footer>
+
+  <div class="floating-btn">
+    <a class="call" href="tel:6367085499">📞 Call Us</a>
+    <a href="https://wa.me/916367085499" target="_blank">💬 WhatsApp</a>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const stars = document.querySelectorAll('#stars span');
+      const commentBox = document.getElementById('comment');
+      const submitBtn = document.getElementById('submitBtn');
+
+      stars.forEach((star, index) => {
+        star.addEventListener('click', () => {
+          stars.forEach((s, i) => s.classList.toggle('active', i <= index));
+        });
+      });
+
+      submitBtn.addEventListener('click', () => {
+        const rating = document.querySelectorAll('#stars .active').length;
+        const comment = commentBox.value.trim();
+        if (!rating || !comment) {
+          alert('Please select stars and write a comment.');
+          return;
+        }
+        alert(`Thank you for your ${rating}-star review!`);
+        commentBox.value = '';
+        stars.forEach(s => s.classList.remove('active'));
+      });
+    });
+  </script>
+</body>
+</html>
